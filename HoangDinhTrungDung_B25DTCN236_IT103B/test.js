@@ -23,3 +23,4 @@ let n = Number(prompt("Nhập một số nguyên n : "));
         }
     }
 
+
