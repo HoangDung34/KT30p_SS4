@@ -15,10 +15,11 @@ let n = Number(prompt("Nhập một số nguyên n : "));
         console.log("Đây là số âm");
     }
 
-    for(i = 1; i <= n; i++){
+    for(let i = 1; i <= n; i++){
         if(n > 0){
             console.log(`${i}`);
         }else if(n <= 0){
             console.log("giá trị không hợp lệ")
         }
     }
+
